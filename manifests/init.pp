@@ -1,4 +1,7 @@
 # This is a placeholder class.
-class template {
-  anchor { 'Hello_World': }
+class querious {
+  package { 'querious':
+    provider => 'appdmg_eula',
+    source => 'http://www.araelium.com/querious/downloads/Querious.dmg'
+  }
 }
